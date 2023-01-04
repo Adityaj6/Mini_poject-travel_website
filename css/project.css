@@ -373,25 +373,25 @@ p {
 
 .service-menu-area ul li a .service-icon:hover,
 .service-menu-area ul li a.active .service-icon {
-    background-color: #021832;
+    background-color: #46d1e4;
     color: #fff;
-    box-shadow: 0 .125rem 1.25rem rgb(34 30 31 / 40%);
+    box-shadow: 0 .125rem 1.25rem rgba(197, 132, 149, 0.4);
 }
 
 .service-menu-area ul li:nth-child(1) {
-    margin-left: 0.5625rem;
+    margin-left: 0.3625rem;
 }
 
 .service-menu-area ul li:nth-child(2) {
-    margin-left: -2.9375rem;
+    margin-left:0.3625rem; 
 }
 
 .service-menu-area ul li:nth-child(3) {
-    margin-left: -6.375rem;
+    margin-left:0.3625rem;  
 }
 
 .service-menu-area ul li:nth-child(4) {
-    margin-left: -8.8125rem;
+    margin-left:0.3625rem; 
 }
 
 .service-menu-area ul li a p,
@@ -404,7 +404,22 @@ p {
 .service-menu-area ul li a p span {
     color: var(--secondary-text)
 }
-
+/* #spa , #restaurent,#swimming,#conference{
+        width: 150px;
+        -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, 
+            color-stop(0.00,  rgba(0,0,0,1)),
+            color-stop(0.35,  rgba(0,0,0,1)),
+            color-stop(0.50,  rgba(0,0,0,0)),
+            color-stop(0.65,  rgba(0,0,0,0)),
+            color-stop(1.00,  rgba(0,0,0,0)));
+        mask-image: -webkit-gradient(linear, left top, right bottom, 
+            color-stop(0.00,  rgba(0,0,0,1)),
+            color-stop(0.35,  rgba(0,0,0,1)),
+            color-stop(0.50,  rgba(0,0,0,0)),
+            color-stop(0.65,  rgba(0,0,0,0)),
+            color-stop(1.00,  rgba(0,0,0,0)));
+      
+} */
 .counter {
     background-image: url('../images/counter-bg.webp');
     background-position: center;
@@ -421,7 +436,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--bg-black);
+    background-color: rgb(53, 166, 215);
     opacity: 0.5;
     z-index: 1;
 }
