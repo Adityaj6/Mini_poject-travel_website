@@ -348,10 +348,34 @@ p {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
 }
+.rooms_wrapper .seeMore{
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid var( --primary-color);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 27px;
+    padding: 6px 26px;
+    margin: 17px 22px;
+    transition: all 0.3s ease-out 0s;
+    float: right;
+}
 
+.rooms_wrapper .seeMore:hover{
+    background-color: var(--primary-color);
+}
+.rooms_wrapper .seeMore a{
+    text-decoration: none;
+}
+.rooms_wrapper .seeMore a:hover{
+    color:var(--text-white);
+}
 /* 6 Services */
 .service-item-wrap {
     background-color: var(--bg-color);
+    --bs-gutter-x: 4.5rem;
+
 }
 
 .service-menu-area ul li a {
@@ -403,6 +427,29 @@ p {
 
 .service-menu-area ul li a p span {
     color: var(--secondary-text)
+}
+.service-menu-area .book{
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid var( --primary-color);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 27px;
+    padding: 5px 28px;
+    margin:auto;
+    transition: all 0.3s ease-out 0s;
+    float: right;
+}
+.service-menu-area .book:hover{
+    background-color: var(--primary-color);
+}
+.service-menu-area .book a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+.service-menu-area .book a:hover{
+    color: var(--text-white);
 }
 /* #spa , #restaurent,#swimming,#conference{
         width: 150px;
