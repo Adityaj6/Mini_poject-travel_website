@@ -24,7 +24,7 @@ body{
     width: 33%;
     height: 100%;
     padding: 12px 25px ;
-    margin: 11px 40px -27px 960px;
+  
 
 }
 .About{
@@ -82,11 +82,28 @@ a {
   background-color: #f1f1f1;
   text-align: center;
 }
+.container1{
+  display: flex;
+   text-align: center;
+   justify-content: space-evenly;
+}
+.container1 .company img{
+  width: 400px;
+}
+.company{
+  display: flex;
+  align-items: center;
+}
     </style>
 </head>
 <body>
+  <div class="container1">
+    <div class="company">
+      <img src="img/Pack & Go-logos.jpeg" alt="pack&Go-logos">
+      <h1></h1>
+    </div>
 
-    <div class="form">
+   <div class="form">
     <form action="action_page.php">
         <div class="container">
             <h1>Register</h1>
@@ -112,5 +129,6 @@ a {
         </div>
     </form>
     </div>
+  </div>
 </body>
 </html>
